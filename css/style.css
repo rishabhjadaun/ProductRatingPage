@@ -1,0 +1,117 @@
+@import url(https://fonts.google.com/specimen/Overpass);
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    overflow-x: hidden;
+}
+
+.outter {
+    width: 31vw;
+    height: 67vh;
+    background-color: hsl(213, 19%, 18%);
+    background-image: radial-gradient(circle at top, hsl(214, 15%, 27%), hsl(211, 18%, 23%), hsl(211, 21%, 20%), hsl(212, 22%, 15%));
+    border-radius: 2em;
+    margin: 6em 28em;
+}
+
+.star-img {
+    margin: 0 2em;
+    padding-top: 2em;
+}
+
+.im {
+    padding: 0.8em;
+    border-radius: 50%;
+    background-color: hsl(216, 14%, 39%);
+}
+
+.text {
+    margin: 0 2em;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    word-spacing: 0.2em;
+    padding: 1em 0em;
+}
+
+p {
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.6em;
+    padding-bottom: 2em;
+}
+
+.nums {
+    margin: 0 2em;
+    padding-bottom: 2em;
+    display: flex;
+}
+
+.rate-num {
+    flex-grow: 1;
+}
+
+.btn {
+    border-radius: 50%;
+    padding: 1em 1.3em;
+    border-style: none;
+    background-color: hsl(216, 14%, 39%);
+    color: white;
+}
+
+.btn:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit {
+    margin: 0 2em;
+}
+
+.sub {
+    border-radius: 3em;
+    width: 24em;
+    height: 3em;
+    border-style: none;
+    background-color: hsl(25, 97%, 53%);
+    letter-spacing: 0.3em;
+    color: white;
+    font-weight: 600;
+}
+
+.sub:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+.thnk {
+    margin: 2em 7em 0em;
+}
+
+.center {
+    text-align: center;
+}
+
+.middle-div {
+    margin: 2em 6em 0em 6em;
+    text-align: center;
+    background-color: hsl(216, 14%, 39%);
+    border-radius: 3em;
+}
+
+.middle {
+    font-family: 'Overpass', sans-serif;
+    word-spacing: 0.1em;
+    color: hsl(25, 97%, 53%);
+    padding: 0.1em;
+}
+
+.btnClicked {
+    background-color: hsl(25, 97%, 53%);
+}
